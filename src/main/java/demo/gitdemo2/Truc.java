@@ -11,4 +11,28 @@ package demo.gitdemo2;
  */
 public class Truc {
     String name;
+    int trucid;
+
+    public Truc(String name, int trucid) {
+        this.name = name;
+        this.trucid = trucid;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getTrucid() {
+        return trucid;
+    }
+
+    public void setTrucid(int trucid) {
+        this.trucid = trucid;
+    }
+    
+    
 }
